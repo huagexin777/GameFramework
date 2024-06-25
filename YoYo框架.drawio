@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T13:16:40.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="ngjSO4OjaCUPDKzKm_4M" version="24.5.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-25T15:25:55.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="xuqzeJe362M6hGZmF25a" version="24.6.2" type="github" pages="7">
   <diagram name="整体框架" id="-j5bUi03bfrf3TnpPEwg">
     <mxGraphModel dx="1779" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1185,6 +1185,77 @@
             <mxPoint x="400" y="120" as="sourcePoint" />
             <mxPoint x="400" y="-140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gKcyJL7VpMX12OStF6FN" name="Lua">
+    <mxGraphModel dx="1702" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="01Zu4sZlGZrgIF-RtuuP-1" target="01Zu4sZlGZrgIF-RtuuP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-5" value="&lt;h2&gt;&lt;b&gt;&lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 21px;&quot;&gt;1&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="01Zu4sZlGZrgIF-RtuuP-4">
+          <mxGeometry x="-0.0455" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="01Zu4sZlGZrgIF-RtuuP-1" target="01Zu4sZlGZrgIF-RtuuP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-21" value="&lt;h2&gt;&lt;font color=&quot;#3399ff&quot; style=&quot;font-size: 30px;&quot;&gt;2&lt;/font&gt;&lt;/h2&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="01Zu4sZlGZrgIF-RtuuP-20">
+          <mxGeometry x="0.0037" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-1" value="LuaComponent&lt;div&gt;Lua入口&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="01Zu4sZlGZrgIF-RtuuP-2" target="01Zu4sZlGZrgIF-RtuuP-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="01Zu4sZlGZrgIF-RtuuP-2" target="01Zu4sZlGZrgIF-RtuuP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-2" value="LuaManager&lt;div&gt;管理xLua.LuaEnv&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-3" value="整个游戏中，只有一个LuaEnv的实例" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="180" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-16" value="初始化Lua脚本的路径" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="340" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-17" value="提供DoString()方法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-19" value="执行脚本&lt;div&gt;Main.Lua&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="01Zu4sZlGZrgIF-RtuuP-22" target="01Zu4sZlGZrgIF-RtuuP-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="01Zu4sZlGZrgIF-RtuuP-22" target="01Zu4sZlGZrgIF-RtuuP-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="01Zu4sZlGZrgIF-RtuuP-22" target="01Zu4sZlGZrgIF-RtuuP-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-22" value="Main.Lua" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-24" value="CtrlManager.Init()&lt;div&gt;初始化控制器&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="340" y="500" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-25" value="GameInit.InitViews()&lt;div&gt;初始化视图&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="01Zu4sZlGZrgIF-RtuuP-26" value="打开一个主UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
